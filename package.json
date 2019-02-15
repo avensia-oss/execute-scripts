@@ -1,8 +1,9 @@
 {
   "name": "@avensia-oss/execute-scripts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple function that executes all script tags inside a DOM element. It does this by removing and adding them so the DOM is kept unmodified",
   "main": "index.js",
+  "types": "./dist/index.d.ts",
   "keywords": [
     "TypeScript",
     "execute"
@@ -19,7 +20,7 @@
     "build": "tsc --version && tsc --project \"./\""
   },
   "files": [
-    "dist/src/**/*"
+    "dist/**/*"
   ],
   "devDependencies": {
     "prettier": "^1.15.3",
