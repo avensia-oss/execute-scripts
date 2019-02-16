@@ -1,3 +1,3 @@
-var executeScripts = require('./dist/src');
+var executeScripts = require('./dist');
 
 module.exports = executeScripts.default;
